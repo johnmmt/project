@@ -17,9 +17,9 @@ $servername = "localhost";
 // REPLACE with your Database name
 $dbname = "new_esp_data";
 // REPLACE with Database user
-$username = "root";
+$username = "";
 // REPLACE with Database user password
-$password = "myProject";
+$password = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
