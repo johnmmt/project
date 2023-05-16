@@ -16,13 +16,13 @@ $servername = "localhost";
 // REPLACE with your Database name
 $dbname = "new_esp_data";
 // REPLACE with Database user
-$username = "root";
+$username = "";
 // REPLACE with Database user password
-$password = "myProject";
+$password = "";
 
 // Keep this API Key value to be compatible with the ESP32 code provided in the project page. 
 // If you change this value, the ESP32 sketch needs to match
-$api_key_value = "mmt2";
+$api_key_value = "";
 
 $api_key= $longitude = $latitude = "";
 
