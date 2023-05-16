@@ -9,8 +9,8 @@
 
 //-----------------------------------------------------------------------------------
 
-#define WIFI_SSID "Look Ma No Wires"
-#define WIFI_PASSWORD "Telec0m16"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 //-----------------------------------------------------------------------------------
 
 float lat;  //Storing the Latitude
@@ -29,12 +29,10 @@ float mq_lon = 0;
 
 
 
-const char* serverName = "http://192.168.0.127/post-esp-data--.php/";     // Domain name and URL path or IP address with path
-const char* serverName2 = "http://192.168.0.127/post-esp-data--MQ.php/";  // Domain name and URL path or IP address with path
+const char* serverName = "http://*.*.*.*/post-esp-data--.php/";     // Domain name and URL path or IP address with path
+const char* serverName2 = "http://*.*.*.*/post-esp-data--MQ.php/";  // Domain name and URL path or IP address with path
 
-String apiKeyValue = "mmt2";  // Ie apiKeyValue value
-//float lon= 5.53885;
-//float lat= 6.34563;
+String apiKeyValue = "";  // Ie apiKeyValue value
 
 
 //-----------------------------------------------------------------------------------
